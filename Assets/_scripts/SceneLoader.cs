@@ -45,8 +45,7 @@ public class SceneLoader : MonoBehaviour
 
     private IEnumerator LoadSceneCo(string name)
     {
-        //setting the trigger for animation
-       // animator.SetTrigger("start");
+       
        
         //will wait till given time
         yield return new WaitForSeconds(sceneTransitionTime);
