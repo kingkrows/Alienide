@@ -63,6 +63,7 @@ public class SceneLoader : MonoBehaviour
     }
 
 
+    //get called when a sprite is clicked
     public void SpriteClicked()
     {
         animator.SetTrigger("end");
